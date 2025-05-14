@@ -23,7 +23,7 @@ type Story = StoryObj<typeof ButtonMui>;
 export const Padrao: Story = {
   args: {
     label: 'Clique aqui',
-    color: 'primary',
+    color: 'success',
     variant: 'contained',
   },
 };
